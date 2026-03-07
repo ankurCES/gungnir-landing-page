@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gungnir | The Einherjar AI Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #000; color: #fff; overflow-x: hidden; }
+        .hero-gradient { background: radial-gradient(circle at center, #111 0%, #000 100%); }
+        .apple-transition { transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
+        .fade-in { animation: fadeIn 2s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="hero-gradient">
+    <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10 px-8 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold tracking-tighter">GUNGNIR</div>
+        <div class="space-x-8 text-sm font-medium opacity-70">
+            <a href="#about" class="hover:opacity-100 transition-opacity">About</a>
+            <a href="#modules" class="hover:opacity-100 transition-opacity">Modules</a>
+            <a href="#developer" class="hover:opacity-100 transition-opacity">Developer</a>
+            <a href="https://github.com/ankurCES" class="px-4 py-2 bg-white text-black rounded-full hover:bg-white/90 transition-colors">Forge</a>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+        <h1 class="text-6xl md:text-8xl font-bold tracking-tighter mb-6 fade-in">The Spear of Efficiency.</h1>
+        <p class="text-xl md:text-2xl opacity-50 max-w-2xl mb-12 fade-in" style="animation-delay: 0.3s;">
+            An Enterprise AI Multi-Agent Ecosystem forged on the edge. Scalable, Governed, and Indestructible.
+        </p>
+        <div class="flex space-x-6 fade-in" style="animation-delay: 0.6s;">
+            <a href="#demo" class="text-blue-500 hover:underline text-lg">Watch the Demo &rarr;</a>
+            <a href="https://github.com/ankurCES/gungnir-core" class="opacity-50 hover:opacity-100 transition-opacity text-lg">View Source</a>
+        </div>
+    </section>
+
+    <section id="demo" class="py-32 px-8 bg-white text-black rounded-[3rem] mx-4 my-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-5xl font-bold tracking-tighter mb-16">The Bifrost Interface.</h2>
+            <div class="aspect-video bg-neutral-100 rounded-3xl overflow-hidden border border-black/5 flex items-center justify-center">
+                <p class="text-neutral-400">First Module Demo Link Coming Soon (Phase 1 Target)</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="developer" class="py-20 px-8 border-t border-white/10 text-center">
+        <p class="opacity-30 mb-4 tracking-widest uppercase text-xs">Developed By</p>
+        <h3 class="text-3xl font-bold mb-6">Ankur Nair</h3>
+        <div class="flex justify-center space-x-6">
+            <a href="https://www.linkedin.com/in/ankur-nair-10baab350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-500 hover:underline">LinkedIn</a>
+            <a href="https://github.com/ankurCES" class="text-blue-500 hover:underline">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
