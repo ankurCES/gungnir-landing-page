@@ -82,7 +82,33 @@
         </div>
     </section>
 
-    <footer id="developer" class="py-20 px-8 border-t border-white/10 text-center">
+    <section id="demo" class="py-32 px-8 bg-neutral-950">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold tracking-tighter mb-8 text-center">Live Forge Terminal</h2>
+            <div class="bg-black rounded-2xl border border-white/10 shadow-2xl overflow-hidden font-mono text-sm">
+                <div class="bg-neutral-900 px-4 py-2 border-b border-white/5 flex items-center space-x-2">
+                    <div class="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50"></div>
+                    <span class="ml-4 text-xs opacity-40 uppercase tracking-widest">Gungnir-Core-v0.1.0</span>
+                </div>
+                <div id="terminal-content" class="p-6 h-64 overflow-y-auto space-y-2 text-green-500/80">
+                    <p class="opacity-50"># Initializing Odin-Alpha Orchestrator...</p>
+                    <p class="opacity-50"># Connecting to Mjolnir-Fabric (Qdrant)... [OK]</p>
+                    <p class="opacity-50"># Loading LangGraph Supervisor... [OK]</p>
+                    <p class="text-white">> await gungnir.invoke("Analyze local storage risks")</p>
+                    <p class="text-blue-400">[Supervisor] Routing to Storage-Analyst-Agent...</p>
+                    <p class="text-neutral-400">[Storage-Analyst] Accessing LakeFS metadata...</p>
+                    <p class="text-green-400">Result: 3 vulnerabilities detected in unencrypted S3 buckets.</p>
+                </div>
+                <div class="p-4 border-t border-white/5 bg-neutral-900/50 flex">
+                    <span class="mr-2 opacity-50">></span>
+                    <input type="text" class="bg-transparent border-none focus:outline-none w-full text-white" placeholder="Enter query to the All-Father...">
+                </div>
+            </div>
+            <p class="mt-6 text-center text-sm text-neutral-500 italic">"Recording captured via Apollo Browser Protocol (Phase 1)"</p>
+        </div>
+    </section>
         <p class="opacity-30 mb-4 tracking-widest uppercase text-xs">Developed By</p>
         <h3 class="text-3xl font-bold mb-6">Ankur Nair</h3>
         <div class="flex justify-center space-x-6">
