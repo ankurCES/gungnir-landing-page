@@ -3,9 +3,9 @@
 ## Overview
 The "Bifrost Showcase" for Project Gungnir. An Apple-style high-performance landing page designed to showcase the ecosystem's modules, functional evidence, and business benefits.
 
-## Visual Evidence
-![Phase 1 Demo](./assets/phase1-demo.jpg)
-*Figure 1: Live Forge Terminal interface (Phase 1).*
+## Visual Evidence (Phase 2)
+![Nexus Demo](./assets/nexus-demo.jpg)
+*Figure 2: End-to-End RAG Loop showing Gungnir, Mjolnir, and Bifrost in the Nexus phase.*
 
 ## Modules Showcased
 - **Gungnir-Core:** Multiagent orchestration.
